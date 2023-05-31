@@ -1,0 +1,36 @@
+.form__heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.form__field {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.578);
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    font-size: medium;
+}
+
+.form__fieldset {
+    padding: 10px;
+}
+
+.form__labelText {
+    padding: 5px;
+    width: 150px;
+    display: inline-block;
+}
+
+.form__comment {
+    font-size: small;
+}
+
+.form__button {
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(205, 197, 197);
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+}

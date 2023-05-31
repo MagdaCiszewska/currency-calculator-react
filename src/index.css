@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+#root {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body {
+  background-image: url("../background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
